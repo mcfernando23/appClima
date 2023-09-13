@@ -5,14 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>App Clima</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-  </head>
+  <link rel="stylesheet" href="css/styles.css">
+ </head>
+
 
   <body>
-    <h1>App Clima con js</h1>
+    <div class="container my-5 mx-auto">
+        <h1 class="text-center text-muted my-4">App Clima</h1>
+
+        <form class="text-center text-muted my-4">
+            <label for="Ciudad" class="p-4">Ingresa la cuidad para comprobar el clima</label>
+            <input type="text" name="Ciudad" id="Ciudad" class="form-control">
+        </form>
+        <div class="card shadow rounded">
+            <img src="https://via.placeholder.com/400x300" alt="400x300">
+            <div class="bg-light mx-auto text-center"></div>
+
+        </div class="text-muted text-uppercase text-center datails">
+        <h5 glass="my-3">Nombre de la cuidad</h5>
+        <div class="my-3">Condicion climatica</div>
+        <div class="display-4 my-4"></div>
+        <span>temp</span>
+        <span>&deg;C</span>
+    </div>
+    
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" 
     crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+    <script src="js/clima.js"></script>
   </body>
 
 </html>
