@@ -1,0 +1,8 @@
+body {
+    background-color: hwb(180 2% 73%) ;
+    letter-spacing: 0.2em;
+}
+
+.container {
+max-width: 400px;
+}
